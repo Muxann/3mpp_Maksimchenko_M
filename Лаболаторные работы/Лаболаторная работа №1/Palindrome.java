@@ -5,7 +5,7 @@ public  class Palindrome {
     }
   }
 
-// return reverse s
+// возвращение обратного s
   public static String reverseString(String s) {
     String result = "";
 
@@ -15,7 +15,7 @@ public  class Palindrome {
     return result;
   }
 
-// return true if s is palindrome
+// возвращение true если s палиндром (palindrome)
   public static boolean isPalindrome(String s) {
     String reverseS = reverseString(s);
     return s.equals(reverseS);
